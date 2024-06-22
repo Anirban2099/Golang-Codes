@@ -28,4 +28,4 @@ func main() {
 		fmt.Println("Added 10 to your current mark in DSA: ", rating+10)
 	}
 
-}it
+}
