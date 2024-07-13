@@ -13,4 +13,8 @@ func main() {
 
 	fmt.Println(presentTime.Format("01-02-2006 15:04:05 Wednesday"))
 
+	DefinedDate := time.Date(2004, time.May, 17, 23, 23, 0, 0, time.UTC)
+	fmt.Println(DefinedDate)
+	fmt.Println(DefinedDate.Format("01-02-2006 Monday"))
+
 }
