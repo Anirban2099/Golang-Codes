@@ -18,6 +18,6 @@ func main() {
 	fmt.Println("The value of the 2nd  pointer is", *ptr0) // Gives integer value
 
 	*ptr0 = *ptr0 + 2
-	fmt.Println("The new added +2 number is: ", ptr0)
+	fmt.Println("The new added +2 number is: ", Mynumber)
 
 }
