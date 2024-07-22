@@ -7,7 +7,7 @@ import (
 func main() {
 	fmt.Println("This is about Maps")
 
-	CapitalCity := make(map[string]string)
+	CapitalCity := make(map[string]string) //Maps Syntax
 
 	CapitalCity["MUM"] = "Mumbai"
 	CapitalCity["DEL"] = "Delhi"
