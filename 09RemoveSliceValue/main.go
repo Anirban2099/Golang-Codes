@@ -10,7 +10,7 @@ func main() {
 	var LuckyColours = []string{
 		"Black",
 		"Purple",
-		"Navy_Blue",
+		"DarkBlue",
 		"White",
 	}
 	fmt.Println("All the Lucky Colours are: ", LuckyColours)
