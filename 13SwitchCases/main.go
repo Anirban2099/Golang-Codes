@@ -30,4 +30,6 @@ func main() {
 		fmt.Println("You can move 6 spots as well as get another chance to roll the dice")
 	}
 
+	//fallthrough statement used to run 2 cases for 1 ouput it can be written after any one case
+	//it will run the next case as well
 }
