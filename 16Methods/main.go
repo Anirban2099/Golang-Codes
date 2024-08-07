@@ -12,8 +12,9 @@ func main() {
 	fmt.Printf("Details of user 1: %+v\n", User1)
 
 	fmt.Println("Only NAME and EMAIL needed")
-	fmt.Printf("Name of user is: %v and Email of the user is: %v", User1.Name, User1.Email)
+	fmt.Printf("Name of user is: %v and Email of the user is: %v \n", User1.Name, User1.Email)
 	User1.GetStatus()
+	User1.NewMail()
 }
 
 type User struct {
@@ -25,4 +26,10 @@ type User struct {
 
 func (u User) GetStatus() {
 	fmt.Println("Is user active? ", u.Verification)
+}
+
+func (u User) NewMail() {
+	u.Email = "ani.koldiscord@gmail.com"
+	fmt.Println("Email of user is: ", u.Email)
+
 }
